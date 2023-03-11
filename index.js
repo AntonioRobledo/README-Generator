@@ -1,7 +1,6 @@
 // TODO: Include packages needed for this application
 const fs = require('fs');
 const inquirer = require('inquirer');
-// const generateMarkdown = require('./utils/markdown');
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -28,7 +27,7 @@ const questions = [
     {
         type: 'input',
         name: 'contributions',
-        message: 'If necessary, describe how others can contribute to your project: '
+        message: 'If necessary, list others who have contributed: '
     },
     {
         type: 'input',
@@ -147,8 +146,8 @@ You should have received a copy of the GNU General Public License along with thi
     }
   
   // TODO: Create a function to generate markdown for README
-  function generateMarkdown(data) {
-    return `
+  const generateMarkdown =
+ `
     
   # ${data.title}
   
@@ -200,17 +199,16 @@ You should have received a copy of the GNU General Public License along with thi
   ${data.tests}
   
   `;
-  }
+  
 
-  writeToFile(generateMarkdown(data))
+  writeToFile(generateMarkdown);
 })
 
 // TODO: Create a function to generate the README file
 function writeToFile(sample) {
       const readMe = sample;
       fs.writeFile('README.md', readMe, (err) => 
-    err ? console.log(err) : console.log('You have successfully created your README.md.')) 
-    
+    err ? console.log(err) : console.log('You have successfully created your README.md')) 
     }
 }
 
