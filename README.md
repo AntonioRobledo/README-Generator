@@ -1,39 +1,17 @@
+# README Generator 
 
-    
-  # New Project
+  ## Badges 
+  [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
   
-  ## Description
+## Description
   
-  This is a description of the project
+This application was designed to create professional README.md files given user input. The user will begin by running npm i to install any dependencies from the npm and then follow this action by running node index.js to run the program. The terminal will ask the user a series of questions that will populate a custom README.md file based on those answers. 
+
+## Installation 
+
+The application will require the additional use of npm's such as Inquirer and FS in order to run properly. These can be obtained by running npi install in the terminal. This will install the necessary dependencies.
   
-  ## Table of Contents
-  
-  - [Installations](#installation)
-  
-  - [Usage](#usage)
-  
-  - [Contributors](#credits)
-  
-  - [License](#license)
-  
-  ## Installation
-  
-  Here is a guide to the installation process: 
-  
-  This is an installation guide
-  
-  ## Usage 
-  
-  This is how to use the project
-  
-  ## Credits
-  
-  List any contributors here:
-  Contributors
-  
-  ## License 
-  
-  GNU General Public License v3.0 
+## License 
 
 Copyright (c) 2023 Antonio Robledo-Ysasaga
 
@@ -48,19 +26,4 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public
 
 
 You should have received a copy of the GNU General Public License along with this program.  If not, see <https://www.gnu.org/licenses/>.
- 
-  
-  ## Badges 
-  [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
-  
-  ## How to Contribute
-  
-  Contributors
-  
-  ## Tests
-  
-  Here's a list of tests and how to run them: 
-  
-  This is how you can run tests
-  
-  
+   
