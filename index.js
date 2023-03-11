@@ -179,6 +179,7 @@ You should have received a copy of the GNU General Public License along with thi
   ## Credits
   
   List any contributors here:
+  ${data.contributions}
   
   ## License 
   
@@ -187,10 +188,6 @@ You should have received a copy of the GNU General Public License along with thi
   
   ## Badges 
   ${licenseBadge}
-  
-  ## Features 
-  
-  If your project has a lot of features, list them here: 
   
   ## How to Contribute
   
